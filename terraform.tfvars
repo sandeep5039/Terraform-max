@@ -1,0 +1,12 @@
+prefix = "infy"
+env = "dev"
+vnetCIDR = [ "10.100.0.0/16" ]
+dnsServer = ["10.100.0.4","10.100.0.5"]
+bastionCIDR = [ "10.100.1.0/24" ]
+webCIDR = [ "10.100.20.0/24" ]
+AppCIDR = [ "10.100.30.0/24" ]
+dbCIDR = [ "10.100.40.0/24" ]
+apiCIDR = [ "10.100.50.0/24" ]
+PubKeyPath="~/.ssh/id_rsa.pub"
+bastionVmSize = "standard_B2s"
+username = "azuser"
